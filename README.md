@@ -11,7 +11,7 @@ Using of human segmentation project:
 
 - Recognition from image:
 
-Open FFlask_Api_DeepLabV3+.ipynb notebook, put your ngrok token and run all cells. Use webpage for uploading image with human (in png format). Click on "predict image" button, after that API must demonstrate resulted image with input image and mask. 
+Open Flask_Api_DeepLabV3+.ipynb notebook, put your ngrok token and run all cells. Use webpage for uploading image with human (in .png format). Click on "predict image" button, after that API must demonstrate resulted image with input image and mask. 
 
 - Training of custom DeepLabV3+ model in Colab:
 
