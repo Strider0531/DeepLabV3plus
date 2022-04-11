@@ -9,9 +9,13 @@ Project developed in Python 3.7
 
 Using of human segmentation project:
 
-- Recognition from image:
+- Segmentation from image:
 
-Open Flask_Api_DeepLabV3+.ipynb notebook, put your ngrok token and run all cells. Use webpage for uploading image with human (in .png format). Click on "predict image" button, after that API must demonstrate resulted image with input image and mask. 
+Open Flask_Api_DeepLabV3+.ipynb notebook, put your ngrok token and run all cells. Use webpage for uploading image with human (in .png format). Click on "predict image" button, after that API must demonstrate resulted image with input image and mask.
+
+- Segmentation from video:
+
+Open video_segmentation.ipynb and set input_video / output_video variables and run cell.
 
 - Training of custom DeepLabV3+ model in Colab:
 
